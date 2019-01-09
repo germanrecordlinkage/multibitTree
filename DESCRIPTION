@@ -1,0 +1,10 @@
+Package: multibitTree
+Type: Package
+Title: Multibit Tree
+Version: 1.7
+Date: 2015-01-08
+Author: Markus Koetter
+Maintainer: Rainer Schnell <rainer.schnell@uni-due.de>
+Description: Multibit Tree
+License: GPL-3
+Packaged: 2015-01-08 09:27:31 UTC; mko

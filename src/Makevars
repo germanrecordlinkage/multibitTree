@@ -1,0 +1,29 @@
+# Makevars
+#
+# Copyright (c) 2015
+# Universitaet Duisburg-Essen
+# Campus Duisburg
+# Institut fuer Soziologie
+# Prof. Dr. Rainer Schnell
+# Lotharstr. 65
+# 47057 Duisburg 
+#
+# This file is part of the R-Package "multibitTree".
+#
+# "multibitTree" is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+#
+# "multibitTree" is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with "multibitTree". If not, see <http://www.gnu.org/licenses/>.
+
+PKG_CPPFLAGS = -pthread
+PKG_LIBS = -pthread
+
+OBJECTS = PackageLibMain.o Grid1D.o QueryResult.o ThreadPool.o MultibitTree.o Fingerprint.o

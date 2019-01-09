@@ -1,0 +1,2 @@
+export(multibitTree.load, multibitTree.search, multibitTree.searchFile, multibitTree.unload, multibitTree.statistics)
+useDynLib(multibitTree, mbtLoadCall, mbtSearchCall, mbtSearchFileCall, mbtUnloadCall, mbtStatisticsCall)
